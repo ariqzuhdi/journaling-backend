@@ -37,6 +37,7 @@ func main() {
 		public.GET("/verify", controllers.VerifyEmail)
 		public.GET("/monkeytype", controllers.MonkeyAPI)
 		public.GET("/posts", controllers.PostsIndex)
+		public.GET("/health", controllers.HealthHandler)
 
 		// Optional/Commented routes
 		// public.GET("/posts/:id", controllers.PostsShowById)
